@@ -10,7 +10,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <Router basename={process.env.PUBLIC_URL}>
-      <Provider store={''}>
+      <Provider store="">
         <div className="container-fluid min-vh-100 bg-light">
           {/* <Header /> */}
           <Routes>
@@ -22,6 +22,5 @@ ReactDOM.render(
       </Provider>
     </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
