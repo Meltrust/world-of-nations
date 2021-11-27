@@ -24,7 +24,7 @@
 
 <br/>
 
-A mobile web app to consult a list of metrics and info on the countries of the world, achieved by fetching an API. Created making use of React and Redux.
+A mobile web app to consult a list of metrics and info on the countries of the world, achieved by fetching an API. Created making use of React and Redux.  
 
 ## Live demo
 
@@ -88,7 +88,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 
