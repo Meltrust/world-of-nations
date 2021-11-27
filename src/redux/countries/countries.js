@@ -4,11 +4,12 @@ import axios from 'axios';
 const FETCH_COUNTRIES_REQUEST = 'FETCH_COUNTRIES_REQUEST';
 const FETCH_COUNTRIES_SUCCESS = 'FETCH_COUNTRIES_SUCCESS';
 const FETCH_COUNTRIES_FAILURE = 'FETCH_COUNTRIES_FAILURE';
+const SEARCH_COUNTRY = 'SEARCH_COUNTRY';
 
 // Initial state
 const initialState = {
   loading: false,
-  countries: [],
+  countriesDisplay: [],
   error: '',
 };
 
@@ -58,6 +59,10 @@ export const fetchCountries = () => (dispatch) => {
     });
 };
 
+export const searchCountryTyping = (value) => (dispatch) => {
+  dispatch({ type: SEARCH_COUNTRY, payload: value });
+};
+
 const countriesReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_COUNTRIES_REQUEST:
@@ -72,6 +77,8 @@ const countriesReducer = (state = initialState, action) => {
       return {
         loading: false,
         countries: action.payload,
+        countriesDisplay: action.payload,
+        searchBox: '',
         error: '',
       };
 
@@ -81,6 +88,14 @@ const countriesReducer = (state = initialState, action) => {
         loading: false,
         countries: [],
         error: action.payload,
+      };
+
+    case SEARCH_COUNTRY:
+      return {
+        ...state,
+        countriesDisplay: state.countries.filter((country) => country.name
+          .toLowerCase().includes(action.payload.toLowerCase())),
+        searchBox: action.payload,
       };
 
     default: return state;

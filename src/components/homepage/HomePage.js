@@ -12,17 +12,18 @@ const HomePage = () => {
   const countriesData = useSelector((state) => state.countriesReducer);
 
   useEffect(() => {
-    if (countriesData.countries.length === 0) {
+    if (countriesData.countriesDisplay.length === 0) {
       console.log('useeffect');
       dispatch(fetchCountries());
     }
   }, []);
-  console.log(countriesData.countries[0]);
+
+  console.log(countriesData.countriesDisplay[0]);
   if (countriesData.loading) {
-    return <h2>Loading</h2>;
+    return <h2 className="text-white">Loading...</h2>;
   }
   if (countriesData.error) {
-    return <h2>{countriesData.error}</h2>;
+    return <h2 className="text-white">{countriesData.error}</h2>;
   }
 
   return (
@@ -30,13 +31,13 @@ const HomePage = () => {
       <SectionHeader title="Whole World" />
       <FilterCountries />
       {countriesData // conditional
-           && countriesData.countries // conditional
-               && countriesData.countries.map(
+           && countriesData.countriesDisplay // conditional
+               && countriesData.countriesDisplay.map(
                  (country) => (
                    <Link
                      to={`/target/${country.id}`}
                      key={country.name}
-                     className="col-6 col-md-4 col-lg-3 col-xl-2 p-0 list-links "
+                     className="p-0 col-6 col-md-4 col-lg-3 col-xl-2 list-links "
                    >
                      <Country
                        key={country.id}

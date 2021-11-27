@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 
-.collection-item {
+.list-links li {
   min-height: 200px;
 }
 
@@ -21,21 +21,6 @@ a {
   background-color: #8b3254;
   color: white;
 }
-
-/* a:nth-child(even) {
-  background-color: #6b223e;
-  color: white;
-} */
-
-/* .light-pink {
-  background-color: #f75492;
-  color: white;
-} */
-
-/* li > a {
-  background-color: #6b223e;
-  border-radius: 50%;
-} */
 
 .strong-pink {
   background-color: #e44c88;
