@@ -36,13 +36,9 @@ form {
 }
 
 .search-bar:focus {
-  border-color: #f65493;
-  box-shadow: inset 0 0 0 rgb(27, 7, 16), 0 0 10px #f65493;
+  border-color: #f6549291;
+  box-shadow: inset 0 0 0 rgb(158, 120, 143), 0 0 10px #f65493;
 }
-
-/* .section-header-text {
-  background-color: #f65493;
-} */
 
 /* .logo {
   width: 4.5rem;
