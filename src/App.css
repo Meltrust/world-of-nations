@@ -1,7 +1,33 @@
 .body {
   box-sizing: border-box;
+}
+
+a {
   text-decoration: none;
 }
+
+.strong-pink,
+.collection-item:nth-child(2n) {
+  background: #e44c88;
+  color: white;
+}
+
+.home-arrow-button {
+  position: relative;
+  top: -0.15rem;
+  height: 1.5rem;
+}
+
+.section-header {
+  background-image: linear-gradient(#0f0707, #f65493);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+}
+
+/* .section-header-text {
+  background-color: #f65493;
+} */
 
 /* .logo {
   width: 4.5rem;
