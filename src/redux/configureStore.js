@@ -3,12 +3,11 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 
-import missionsReducer from './missions/missions';
-import rocketsReducer from './rockets/rockets';
+import countriesReducer from './countries/countries';
 
 const reducer = combineReducers({
-  rocketsReducer,
-  missionsReducer,
+  countriesReducer,
+
   // additional reducers could be added here
 });
 

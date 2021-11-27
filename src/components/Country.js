@@ -1,35 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import truncateBigNumbers from '../modules/helperFunctions';
 
 const Country = (props) => {
-  const { countrySpecs } = props;
   const {
     id,
     name,
-  } = countrySpecs;
+    population,
+  } = props;
 
   return (
-    <div
+    <li
       id={id}
       className="border border-white light-pink text-center collection-item d-flex flex-column justify-content-center"
     >
-      <h1>
+      <h2>
         {name}
-      </h1>
+      </h2>
       <span className="align-bottom">
-        <p className="m-0">
-          Population: 300 million
+        <small className="m-0">
+          Population:
+          {' '}
+          {truncateBigNumbers(population)}
 
-        </p>
+        </small>
       </span>
-    </div>
+    </li>
   );
 };
 
 Country.propTypes = {
-  countrySpecs: PropTypes.element.isRequired,
   name: PropTypes.string.isRequired,
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
+  population: PropTypes.number.isRequired,
 };
 
 export default Country;

@@ -13,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
-        <div className="container-fluid min-vh-100 p-0">
+        <div className="min-vh-100 p-0">
           <Header />
           <Routes>
             <Route path="/" element={<App />} />
