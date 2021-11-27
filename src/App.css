@@ -25,6 +25,21 @@ a {
   height: 20vh;
 }
 
+form {
+  padding: 0;
+}
+
+.search-bar {
+  color: rgb(209, 205, 199);
+  background-color: rgb(24, 26, 27);
+  border-color: rgb(102, 115, 122);
+}
+
+.search-bar:focus {
+  border-color: #f65493;
+  box-shadow: inset 0 0 0 rgb(27, 7, 16), 0 0 10px #f65493;
+}
+
 /* .section-header-text {
   background-color: #f65493;
 } */
