@@ -9575,11 +9575,6 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-styles@^2.0.0":
-  "integrity" "sha512-0GZfidfb+Jf4vSyT5pj9mnXWT6Ej1jS4aKBlZar+aFh6ih3HlQBc7BfFN9oYDvBn/CYUwsgGhnM6zomj/Nh4MA=="
-  "resolved" "https://registry.npmjs.org/prop-styles/-/prop-styles-2.0.0.tgz"
-  "version" "2.0.0"
-
 "prop-types-extra@^1.1.0":
   "integrity" "sha512-59+AHNnHYCdiC+vMwY52WmvP5dM3QLeoumYuEyceQDi9aEhtwN9zIQ2ZNo25sMyXnbh32h+P1ezDsUpUH3JAew=="
   "resolved" "https://registry.npmjs.org/prop-types-extra/-/prop-types-extra-1.1.1.tgz"
