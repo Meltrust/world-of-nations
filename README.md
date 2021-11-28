@@ -6,21 +6,10 @@
 
 <br/>
 
-<!-- ## Rockets view
 
-![screenshot](./assets/app_screenshot_rockets.png)
+## Screenshot
 
-<br/>
-
-## Missions view
-
-![screenshot](./assets/app_screenshot_missions.png)
-
-<br/>
-
-## Joined Rockets and Missions view
-
-![screenshot](./assets/app_screenshot_profile.png) -->
+![screenshot](./assets/app_screenshot.png)
 
 <br/>
 
@@ -28,7 +17,7 @@ A mobile web app to consult a list of metrics and info on the countries of the w
 
 ## Live demo
 
-<!-- [Visit World of Nations!](https://meltrust.github.io/Space-Travelers-Hub/) -->
+[Visit World of Nations!](https://meltrust.github.io/world-of-nations/) 
 
 ## Made with
 
