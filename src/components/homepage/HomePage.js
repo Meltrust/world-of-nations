@@ -13,12 +13,11 @@ const HomePage = () => {
 
   useEffect(() => {
     if (countriesData.countriesDisplay.length === 0) {
-      console.log('useeffect');
       dispatch(fetchCountries());
     }
+    window.scrollTo(0, 0);
   }, []);
 
-  console.log(countriesData.countriesDisplay[0]);
   if (countriesData.loading) {
     return <h2 className="text-white">Loading...</h2>;
   }
@@ -28,7 +27,7 @@ const HomePage = () => {
 
   return (
     <div className="col-12 row m-0 mt-5">
-      <SectionHeader title="Whole World" />
+      <SectionHeader name="Whole World" population="7.753 billion" />
       <FilterCountries />
       {countriesData // conditional
            && countriesData.countriesDisplay // conditional

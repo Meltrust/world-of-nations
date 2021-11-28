@@ -30,23 +30,24 @@ export const fetchCountriesFailure = (error) => ({
 
 // Fetch countries function
 export const fetchCountries = () => (dispatch) => {
-  console.log('init dispatch countries');
   dispatch(fetchCountriesRequest());
 
   axios.get('https://restcountries.com/v3.1/all')
 
     .then((response) => {
       // response.data is the countries
-      console.log(response.data);
+
       const countries = (response.data).map((key) => {
-        const id = key.fifa;
+        const id = key.cca3;
         const name = key.name.common;
         const { capital } = key;
         const { region, population } = key;
         const flag = key.flags.svg;
+        const officialName = key.name.official;
+        const land = key.area;
 
         const country = {
-          id, name, capital, region, population, flag,
+          id, name, capital, region, population, flag, officialName, land,
         };
         return country;
       });
