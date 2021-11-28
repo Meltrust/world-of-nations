@@ -1,22 +1,55 @@
-import React, { } from 'react';
-// import { Outlet } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Outlet, Link } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
 import SectionHeader from '../SectionHeader';
 
 import Country from '../Country';
+import { fetchCountries } from '../../redux/countries/countries';
 import FilterCountries from './FilterCountries';
 
-const countrySpecs = {
-  id: 1,
-  name: 'United States',
-};
+const HomePage = () => {
+  const dispatch = useDispatch();
+  const countriesData = useSelector((state) => state.countriesReducer);
 
-const HomePage = () => (
-  <div className="col-12 row m-0 mt-5">
-    <SectionHeader title="Whole World" />
-    <FilterCountries />
-    <Country key={countrySpecs.id} countrySpecs={countrySpecs} />
-    {/* <Outlet /> */}
-  </div>
-);
+  useEffect(() => {
+    if (countriesData.countriesDisplay.length === 0) {
+      dispatch(fetchCountries());
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
+  if (countriesData.loading) {
+    return <h2 className="text-white">Loading...</h2>;
+  }
+  if (countriesData.error) {
+    return <h2 className="text-white">{countriesData.error}</h2>;
+  }
+
+  return (
+    <div className="col-12 row m-0 mt-5">
+      <SectionHeader name="Whole World" population="7.753 billion" />
+      <FilterCountries />
+      {countriesData // conditional
+           && countriesData.countriesDisplay // conditional
+               && countriesData.countriesDisplay.map(
+                 (country) => (
+                   <Link
+                     to={`/target/${country.id}`}
+                     key={country.name}
+                     className="p-0 col-6 col-md-4 col-lg-3 col-xl-2 list-links "
+                   >
+                     <Country
+                       key={country.id}
+                       id={country.id}
+                       name={country.name}
+                       population={country.population}
+                     />
+                   </Link>
+                 ),
+               )}
+      <Outlet />
+    </div>
+  );
+};
 
 export default HomePage;
