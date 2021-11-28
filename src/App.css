@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.body {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-links li {
+  min-height: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.list-links:nth-of-type(4n+1),
+.list-links:nth-of-type(4n+2) {
+  background-color: #a7436b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list-links:nth-of-type(4n+3),
+.list-links:nth-of-type(4n+4) {
+  background-color: #8b3254;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.strong-pink {
+  background-color: #e44c88;
+  color: white;
+}
+
+.home-arrow-button {
+  position: relative;
+  top: -0.15rem;
+  height: 1.5rem;
+}
+
+.section-header {
+  background-image: linear-gradient(#291313, #f65493, #0f0707);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+}
+
+form {
+  padding: 0;
+}
+
+.search-bar {
+  color: rgb(209, 205, 199);
+  background-color: rgb(24, 26, 27);
+  border-color: rgb(102, 115, 122);
+}
+
+.search-bar:focus {
+  border-color: #f6549291;
+  box-shadow: inset 0 0 1rem rgb(158, 120, 143), 0 0 1rem #f65493;
 }
