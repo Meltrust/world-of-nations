@@ -67,14 +67,14 @@ export const searchCountryTyping = (value) => (dispatch) => {
 const countriesReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_COUNTRIES_REQUEST:
-      console.log('fetching');
+
       return {
         ...state,
         loading: true,
       };
 
     case FETCH_COUNTRIES_SUCCESS:
-      console.log('success');
+
       return {
         loading: false,
         countries: action.payload,
@@ -84,7 +84,7 @@ const countriesReducer = (state = initialState, action) => {
       };
 
     case FETCH_COUNTRIES_FAILURE:
-      console.log('error');
+
       return {
         loading: false,
         countries: [],
