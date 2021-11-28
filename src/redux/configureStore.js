@@ -7,8 +7,6 @@ import countriesReducer from './countries/countries';
 
 const reducer = combineReducers({
   countriesReducer,
-
-  // additional reducers could be added here
 });
 
 const store = createStore(reducer, composeWithDevTools(applyMiddleware(logger, thunk)));
