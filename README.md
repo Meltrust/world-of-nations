@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# World of nations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+> A React/Redux app to get into commercial and scientific space missions.
 
-In the project directory, you can run:
+<br/>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshot
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![screenshot](./assets/app_screenshot.png)
 
-### `yarn test`
+## Video explanation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://www.loom.com/share/fcac2ffaa1d442679f201bfabbaaab0b
 
-### `yarn build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A mobile web app to consult a list of metrics and info on the countries of the world, achieved by fetching an API. Created making use of React and Redux.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Visit World of Nations!](https://meltrust.github.io/world-of-nations/) 
 
-### `yarn eject`
+## Made with
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Javascript
+- Webpack
+- React
+- Redux
+- Twitter Bootstrap
+- CSS3
+- HTML5
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Updates & Roadmap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- More general styling, categorization.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+To get a local copy up and running follow these simple example steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Under the repository name, click the Clone or download green button.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![clone](https://user-images.githubusercontent.com/53324035/73660989-4451aa80-4667-11ea-8a89-176f89d6548a.png)
 
-### Code Splitting
+2.Copy the URL given by clicking the clipboard button
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3.Open a terminal window in your local machine and change the current directory to the one you want the clone directory to be made.
 
-### Analyzing the Bundle Size
+4.Type  git clone and the paste the URL you previusly copied to the clipboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5.Change the current directory to the newly created folder
 
-### Making a Progressive Web App
+6.Open the index.html file on your browser. You can add and remove books which persist on browser reloads.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+7.In your terminal, `npm install` to install the dependencies.
 
-### Advanced Configuration
+8.Now run `npm start` and the app should appear on your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Author
 
-### Deployment
+👤 **Miguel Tapia**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Github: [@meltrust](https://github.com/meltrust)
+- Linkedin: [linkedin](https://www.linkedin.com/in/meltrust/)
+- Or talk to me directly at: original.mtapia@outlook.com
+  
+## 🤝 Contributing
 
-### `yarn build` fails to minify
+Contributions, issues and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- Original design idea by Nelson Sakwa on Behance.
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
