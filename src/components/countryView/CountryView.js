@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCountries } from '../../redux/countries/countries';
 import SectionHeader from '../SectionHeader';
@@ -10,12 +10,13 @@ const CountryView = () => {
   const countriesData = useSelector((state) => state.countriesReducer);
 
   async function start() {
-    if (countriesData.countriesDisplay === []) {
+    if (countriesData.countriesDisplay !== []) {
       await dispatch(fetchCountries());
     }
   }
   useEffect(() => {
     start();
+
     window.scrollTo(0, 0);
   }, []);
 
@@ -23,7 +24,9 @@ const CountryView = () => {
   const country = countriesData.countriesDisplay.find(
     (country) => country.id === params.countryId,
   );
-
+  if (!country) {
+    return <Navigate to="/" />;
+  }
   return (
 
     <div className="col-12 row m-0 mt-5 list-links text-center">
@@ -39,10 +42,11 @@ const CountryView = () => {
         <div className="row p-0 p-lg-5 ">
           <img className="col flag" src={country.flag} alt="" />
         </div>
+
         <div className="mb-5 mt-5 mt-lg-0 p-3">
           {' '}
           <h2>Country info</h2>
-          <div d-flex flex-columnn>
+          <div className="d-flex flex-column">
             <div>
               Official name:
               {' '}

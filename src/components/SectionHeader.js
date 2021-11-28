@@ -19,7 +19,7 @@ const SectionHeader = (props) => {
 
 SectionHeader.propTypes = {
   name: PropTypes.string.isRequired,
-  population: PropTypes.number.isRequired,
+  population: PropTypes.string.isRequired,
 };
 
 export default SectionHeader;
