@@ -39,10 +39,11 @@ const CountryView = () => {
         <div className="row p-0 p-lg-5 ">
           <img className="col flag" src={country.flag} alt="" />
         </div>
+
         <div className="mb-5 mt-5 mt-lg-0 p-3">
           {' '}
           <h2>Country info</h2>
-          <div d-flex flex-columnn>
+          <div className="d-flex flex-column">
             <div>
               Official name:
               {' '}
