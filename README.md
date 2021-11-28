@@ -81,7 +81,6 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 
