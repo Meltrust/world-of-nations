@@ -11,6 +11,10 @@
 
 ![screenshot](./assets/app_screenshot.png)
 
+## Video explanation
+
+https://www.loom.com/share/fcac2ffaa1d442679f201bfabbaaab0b
+
 <br/>
 
 A mobile web app to consult a list of metrics and info on the countries of the world, achieved by fetching an API. Created making use of React and Redux.  
