@@ -26,7 +26,7 @@ const HomePage = () => {
   }
 
   return (
-    <div className="col-12 row m-0 mt-5">
+    <div className="col-12 row m-0 mt-5" data-testid="countriesList">
       <SectionHeader name="Whole World" population="7.753 billion" />
       <FilterCountries />
       {countriesData // conditional
