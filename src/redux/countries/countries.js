@@ -40,8 +40,7 @@ export const fetchCountries = () => (dispatch) => {
       const countries = (response.data).map((key) => {
         const id = key.cca3;
         const name = key.name.common;
-        const { capital } = key;
-        const { region, population } = key;
+        const { capital, region, population } = key;
         const flag = key.flags.svg;
         const officialName = key.name.official;
         const land = key.area;
