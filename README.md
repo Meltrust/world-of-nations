@@ -2,7 +2,7 @@
 
 <br/>
 
-> A React/Redux app to get into commercial and scientific space missions.
+> A mobile web app to consult a list of metrics and info on the countries of the world.
 
 <br/>
 
