@@ -11,13 +11,14 @@
 
 ![screenshot](./assets/app_screenshot.png)
 
-## Video explanation
-
-https://www.loom.com/share/fcac2ffaa1d442679f201bfabbaaab0b
 
 <br/>
 
-A mobile web app to consult a list of metrics and info on the countries of the world, achieved by fetching an API. Created making use of React and Redux.  
+World of nations is mobile web app to consult a list of metrics and info about the countries of the world, achieved by fetching the [REST countries](https://restcountries.com/) API with a beautiful, totally responsive frontend mosaic design. You can search by country name, and visit each country's info. Created making use of Javascript, React and Redux.  
+
+## Video explanation
+
+https://www.loom.com/share/94307a4dd903485cb31a063b0efe72a6
 
 ## Live demo
 
