@@ -54,7 +54,7 @@
   
 ## About
 
-World of nations is a mobile web app to consult a list of metrics and info about the countries of the world, achieved by fetching the [REST countries](https://restcountries.com/) API with a beautiful, totally responsive frontend mosaic design. You can search by country name and the results will come up as you type. By clicking on any country, you can view its info. Created making use of Javascript, React, and Redux.
+World of nations is a beautiful, totally responsive web app made with React and Redux where you can consult a list of metrics and info about the countries of the world, achieved by fetching the [REST countries](https://restcountries.com/) API with a beautiful frontend mosaic design. You can search by country name and the results will come up as you type. By clicking on any country, you can view its info. 
   
 <br />
   
