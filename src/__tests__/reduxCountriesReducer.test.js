@@ -9,20 +9,20 @@ describe('Countries Reducer: ', () => {
     });
   });
 
-  test('Countries Fetch', () => {
+  test('Countries Fetching', () => {
     const action = {
       type: FETCH_COUNTRIES_SUCCESS,
-      payload: [{ id: 'test' }],
+      payload: [{ name: 'mock' }],
     };
     expect(countriesReducer({ countriesDisplay: [], countries: [] }, action)).toEqual({
       countriesDisplay: [{
-        id: 'test',
+        name: 'mock',
       }],
       error: '',
       loading: false,
       searchBox: '',
       countries: [{
-        id: 'test',
+        name: 'mock',
       }],
     });
   });
