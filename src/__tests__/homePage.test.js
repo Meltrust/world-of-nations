@@ -46,7 +46,7 @@ describe('Test Homepage component', () => {
   test('Renders the correct header', () => {
     expect(screen.getByText('Whole World')).toBeInTheDocument();
   });
-  test('Renders "Remders correct search results" button', () => {
+  test('Renders correct search results', () => {
     mockStore.countriesReducer.searchBox = 'Mexico';
     render(<BrowserRouter><HomePage /></BrowserRouter>);
     expect(mockStore.countriesReducer.searchBox).toEqual('Mexico');
