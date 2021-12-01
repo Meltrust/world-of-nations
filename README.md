@@ -96,7 +96,7 @@ https://www.loom.com/share/94307a4dd903485cb31a063b0efe72a6
 
 ## Demo
 
-[Visit World of Nations!](https://meltrust.github.io/world-of-nations/) 
+[Visit World of Nations!](https://world-of-nations.netlify.app/) 
 
 ## Made with
 
