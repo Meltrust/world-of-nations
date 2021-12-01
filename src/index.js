@@ -12,7 +12,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Provider store={store}>
         <div className="min-vh-100 p-0">
           <Header />
