@@ -4,7 +4,7 @@ import { FaAngleLeft } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
-  <nav className="navbar fixed-top strong-pink ">
+  <nav className="navbar fixed-top strong-pink main-nav">
     <Link to="/" className="text-white">
       <FaAngleLeft className="ms-2 ms-md-3 ms-lg-5 me-2 home-arrow-button" />
     </Link>
