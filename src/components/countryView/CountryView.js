@@ -28,7 +28,6 @@ const CountryView = () => {
     return <Navigate to="/" />;
   }
   const wikiConsultLink = `https://www.wikipedia.org/wiki/${country.name.split(' ').join('_')}`;
-  console.log(wikiConsultLink);
   return (
 
     <div className="col-12 row m-0 mt-5 list-links text-center">
