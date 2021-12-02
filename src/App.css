@@ -65,18 +65,9 @@ form {
   box-shadow: inset 0 0 1rem rgb(158, 120, 143), 0 0 1rem #f65493;
 }
 
-.info-container {
-
-}
-
 /* small screens */
 @media screen and (max-width: 500px) {
   .flag-container {
-    /* margin-top: 2.5rem; */
-
-    /* margin-top: -rem; */
-
-    /* height: 17rem; */
     width: 100%;
     align-self: center;
   }
@@ -93,8 +84,6 @@ form {
 /* ipad */
 @media screen and (min-width: 768px) {
   .flag-container {
-    /* margin-top: 2.5rem; */
-
     height: 35%;
     width: 100%;
     align-self: center;
@@ -110,10 +99,7 @@ form {
 /* lg */
 @media screen and (min-width: 992px) {
   .flag-container {
-    /* margin-top: 2.5rem; */
     height: 37%;
-
-    /* width: 30rem; */
     align-self: center;
   }
 

@@ -45,7 +45,7 @@ const CountryView = () => {
           <img className="d-flex  flag" src={country.flag} alt="" />
         </div>
 
-        <div className="mb-4 mt-3 p-3 info-container row">
+        <div className="mt-4 mt-md-3 p-3 info-container row">
           {' '}
           <h2 className="mb-3">Country info</h2>
           <div className="d-flex flex-column">
