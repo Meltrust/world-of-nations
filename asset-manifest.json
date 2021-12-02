@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa470794.chunk.css",
-    "main.js": "/static/js/main.8871f991.chunk.js",
-    "main.js.map": "/static/js/main.8871f991.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bdb7b860.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bdb7b860.js.map",
-    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
-    "static/js/2.793a9038.chunk.js": "/static/js/2.793a9038.chunk.js",
-    "static/js/2.793a9038.chunk.js.map": "/static/js/2.793a9038.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.fa470794.chunk.css.map": "/static/css/main.fa470794.chunk.css.map",
-    "static/js/2.793a9038.chunk.js.LICENSE.txt": "/static/js/2.793a9038.chunk.js.LICENSE.txt"
+    "main.css": "/world-of-nations/static/css/main.fa470794.chunk.css",
+    "main.js": "/world-of-nations/static/js/main.8871f991.chunk.js",
+    "main.js.map": "/world-of-nations/static/js/main.8871f991.chunk.js.map",
+    "runtime-main.js": "/world-of-nations/static/js/runtime-main.064959a2.js",
+    "runtime-main.js.map": "/world-of-nations/static/js/runtime-main.064959a2.js.map",
+    "static/css/2.383c0125.chunk.css": "/world-of-nations/static/css/2.383c0125.chunk.css",
+    "static/js/2.793a9038.chunk.js": "/world-of-nations/static/js/2.793a9038.chunk.js",
+    "static/js/2.793a9038.chunk.js.map": "/world-of-nations/static/js/2.793a9038.chunk.js.map",
+    "index.html": "/world-of-nations/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/world-of-nations/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.fa470794.chunk.css.map": "/world-of-nations/static/css/main.fa470794.chunk.css.map",
+    "static/js/2.793a9038.chunk.js.LICENSE.txt": "/world-of-nations/static/js/2.793a9038.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdb7b860.js",
+    "static/js/runtime-main.064959a2.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.793a9038.chunk.js",
     "static/css/main.fa470794.chunk.css",
