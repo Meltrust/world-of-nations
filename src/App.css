@@ -4,6 +4,13 @@
 
 a {
   text-decoration: none;
+  color: #fff;
+}
+
+button {
+  width: 7rem;
+  white-space: nowrap;
+  background-color: #3f1324ad !important;
 }
 
 .list-links li {
@@ -104,7 +111,7 @@ form {
 @media screen and (min-width: 992px) {
   .flag-container {
     /* margin-top: 2.5rem; */
-    height: 35%;
+    height: 37%;
 
     /* width: 30rem; */
     align-self: center;

@@ -27,6 +27,8 @@ const CountryView = () => {
   if (!country) {
     return <Navigate to="/" />;
   }
+  const wikiConsultLink = `https://www.wikipedia.org/wiki/${country.name.split(' ').join('_')}`;
+  console.log(wikiConsultLink);
   return (
 
     <div className="col-12 row m-0 mt-5 list-links text-center">
@@ -43,7 +45,7 @@ const CountryView = () => {
           <img className="d-flex  flag" src={country.flag} alt="" />
         </div>
 
-        <div className="mb-4 mt-4 p-3 info-container row">
+        <div className="mb-4 mt-3 p-3 info-container row">
           {' '}
           <h2 className="mb-3">Country info</h2>
           <div className="d-flex flex-column">
@@ -78,6 +80,20 @@ const CountryView = () => {
               {country.population}
               {' '}
             </div>
+            <button type="button" className="btn btn-dark align-self-center mt-4">
+              <a href={country.map} target="_blank" rel="noreferrer">
+                Open map
+                {' '}
+                {' '}
+              </a>
+            </button>
+            <button type="button" className="btn btn-dark align-self-center mt-3">
+              <a href={wikiConsultLink} target="_blank" rel="noreferrer">
+                Visit wiki
+                {' '}
+                {' '}
+              </a>
+            </button>
 
           </div>
         </div>

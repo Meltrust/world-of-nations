@@ -44,9 +44,10 @@ export const fetchCountries = () => (dispatch) => {
         const flag = key.flags.svg;
         const officialName = key.name.official;
         const land = key.area;
+        const map = key.maps.googleMaps;
 
         const country = {
-          id, name, capital, region, population, flag, officialName, land,
+          id, name, capital, region, population, flag, officialName, land, map,
         };
         return country;
       });
