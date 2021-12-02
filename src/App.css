@@ -65,6 +65,11 @@ form {
   box-shadow: inset 0 0 1rem rgb(158, 120, 143), 0 0 1rem #f65493;
 }
 
+.country-info-container {
+  background-color: #e44c88;
+  color: white;
+}
+
 /* small screens */
 @media screen and (max-width: 500px) {
   .flag-container {
@@ -99,13 +104,13 @@ form {
 /* lg */
 @media screen and (min-width: 992px) {
   .flag-container {
-    height: 37%;
+    height: 39%;
     align-self: center;
   }
 
   .flag {
     width: 50%;
-    height: 100%;
+    height: 93%;
     align-self: center;
   }
 }

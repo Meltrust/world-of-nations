@@ -30,7 +30,7 @@ const CountryView = () => {
   const wikiConsultLink = `https://www.wikipedia.org/wiki/${country.name.split(' ').join('_')}`;
   return (
 
-    <div className="col-12 row m-0 mt-5 list-links text-center">
+    <div className="col-12 row m-0 mt-5 country-info-container text-center">
       {countriesData && countriesData.countriesDisplay
         && (
         <SectionHeader
@@ -41,10 +41,10 @@ const CountryView = () => {
 
       <div className="min-vh-100 d-flex flex-column p-0">
         <div className="row p-0 d-flex flag-container bg-dark justify-content-center">
-          <img className="d-flex  flag" src={country.flag} alt="" />
+          <img className="d-flex mb-lg-1 flag" src={country.flag} alt="" />
         </div>
 
-        <div className="mt-4 mt-md-3 p-3 info-container row">
+        <div className="mt-4 mt-md-3 mt-lg-2 p-3 info-container row">
           {' '}
           <h2 className="mb-3">Country info</h2>
           <div className="d-flex flex-column">
