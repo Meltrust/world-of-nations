@@ -11,7 +11,7 @@ const FilterCountries = () => {
   };
 
   return (
-    <div className="row m-0 p-0 bg-dark">
+    <div className="row m-0 p-0 bg-dark form-container">
       <form>
         <input
           className="form-control search-bar my-2"
