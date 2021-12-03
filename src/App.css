@@ -89,7 +89,7 @@ form {
   }
 
   .info-data-box {
-    padding-bottom: 1rem;
+    padding-bottom: 6rem;
   }
 
   .info-link-buttons {
@@ -120,8 +120,6 @@ form {
   }
 
   .info-data-box {
-    /* margin-top: -2.3rem; */
-
     padding-bottom: 1rem;
   }
 
@@ -133,7 +131,8 @@ form {
 /* lg */
 @media screen and (min-width: 992px) {
   .flag-container {
-    height: 50%;
+    height: 25rem;
+    width: 90%;
     align-self: center;
   }
 
@@ -148,7 +147,7 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 21.9rem;
+    height: 19.8rem;
   }
 
   .info-data-box {

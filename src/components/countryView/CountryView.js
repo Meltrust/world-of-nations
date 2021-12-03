@@ -47,7 +47,7 @@ const CountryView = () => {
         <div className="   p-4 p-md-3 info-container row gx-0">
 
           {' '}
-          <h2 className="mt- mt-lg-2 pt-4 pt-md-5 pt-lg-4">Country info</h2>
+          <h2 className="t-0 mt-lg-2 pt-4 pt-md-5 pt-lg-3">Country info</h2>
           <div className="d-flex flex-column info-data-box">
             <div>
               Official name:
