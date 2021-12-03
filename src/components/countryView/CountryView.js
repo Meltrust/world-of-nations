@@ -39,15 +39,15 @@ const CountryView = () => {
         />
         )}
 
-      <div className="min-vh-100 d-flex flex-column p-0">
+      <div className="min-vh100 d-flex flex-column p-0">
         <div className="row p-0 d-flex flag-container bg-dark justify-content-center">
-          <img className="d-flex mb-lg-1 flag" src={country.flag} alt="" />
+          <img className="d-flex py-md-2 flag" src={country.flag} alt="" />
         </div>
 
-        <div className="mt-4 mt-md-3 mt-lg-2 p-3 info-container row">
+        <div className="  p-5 p-md-3 info-container row">
           {' '}
-          <h2 className="mb-3">Country info</h2>
-          <div className="d-flex flex-column">
+          <h2 className="mt-2">Country info</h2>
+          <div className="d-flex flex-column info-data-box">
             <div>
               Official name:
               {' '}
@@ -79,20 +79,22 @@ const CountryView = () => {
               {country.population}
               {' '}
             </div>
-            <button type="button" className="btn btn-dark align-self-center mt-4">
-              <a href={country.map} target="_blank" rel="noreferrer">
-                Open map
-                {' '}
-                {' '}
-              </a>
-            </button>
-            <button type="button" className="btn btn-dark align-self-center mt-3">
-              <a href={wikiConsultLink} target="_blank" rel="noreferrer">
-                Visit wiki
-                {' '}
-                {' '}
-              </a>
-            </button>
+            <div className="d-flex justify-content-center flex-column flex-lg-row info-link-buttons">
+              <button type="button" className="btn btn-dark align-self-center mt-4 mt-lg-3 me-lg-4">
+                <a href={country.map} target="_blank" rel="noreferrer">
+                  Open map
+                  {' '}
+                  {' '}
+                </a>
+              </button>
+              <button type="button" className="btn btn-dark align-self-center mt-3">
+                <a href={wikiConsultLink} target="_blank" rel="noreferrer">
+                  Visit wiki
+                  {' '}
+                  {' '}
+                </a>
+              </button>
+            </div>
 
           </div>
         </div>
