@@ -14,7 +14,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Provider store={store}>
-        <div className="min-vh-100 p-0">
+        <div className="min-vh100 p-0">
           <Header />
           <Routes>
             <Route path="/" element={<App />} />

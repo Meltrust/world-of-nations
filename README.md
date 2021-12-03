@@ -33,11 +33,12 @@
 - [About](#about)
 
   - [Desktop view](#desktop-view)
-    - [Homepage](#homepage)
+    - [Homepage](#homepage-desktop)
+    - [Country view desktop](#country-view-desktop)
   - [Small devices view](#small-devices-view)
-    - [Homepage phone](#homepage-phone)
+    - [Homepage and country view small screens](#homepage-and-country-view-small-screens)
   - [Tablets view](#tablets-view)
-    - [Homepage tablets](#homepage-tablets)
+    - [Homepage and country view tablets](#homepage-and-country-view-tablets)
   - [Demo](#demo)
   - [Features Video](#features-video)
   - [Made with](#made-with)
@@ -60,32 +61,38 @@ World of nations is a beautiful, totally responsive web app made with React and 
   
 ## Desktop view  
   
-### Homepage
+### Homepage desktop
 
   
 ![screenshot](./assets/home-view-large.png)
   
   
 <br />
+  
+### Country view desktop
+  
+![screenshot](./assets/country-view-large.png)
 
 <hr />
   
 ## Small devices view
   
-### Homepage phone
+### Homepage and country view small screens
   
 <p align="center" width="100%">
     <img width="40%" src="./assets/home-view-small.png"> 
+    <img width="40%" src="./assets/country-view-phone.png">
 </p>
 
 <hr />
   
 ## Tablets view
   
-### Homepage tablets
+### Homepage and country view tablets
   
 <p align="center" width="100%">
     <img width="40%" src="./assets/home-view-tablet.png"> 
+    <img width="40%" src="./assets/country-view-tablet.png"> 
 </p>
   
 <hr />

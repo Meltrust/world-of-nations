@@ -79,12 +79,28 @@ form {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+
+  .info-container {
+    background: linear-gradient(180deg, rgb(49, 27, 27) 0%, rgba(228, 76, 136, 1) 100%, rgba(15, 7, 7, 1) 106%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 31rem;
+  }
+
+  .info-data-box {
+    padding-bottom: 6rem;
+  }
+
+  .info-link-buttons {
+    padding-top: 0.9rem;
+  }
 }
 
 /* ipad */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
   .flag-container {
-    height: 35%;
+    height: 25rem;
     width: 100%;
     align-self: center;
   }
@@ -94,18 +110,51 @@ form {
     height: 100%;
     align-self: center;
   }
+
+  .info-container {
+    background: linear-gradient(180deg, rgba(41, 19, 19, 1) 1%, rgba(228, 76, 136, 1) 50%, rgba(15, 7, 7, 1) 106%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 28rem;
+  }
+
+  .info-data-box {
+    padding-bottom: 1rem;
+  }
+
+  .info-link-buttons {
+    padding-top: 0.9rem;
+  }
 }
 
 /* lg */
 @media screen and (min-width: 992px) {
   .flag-container {
-    height: 37%;
+    height: 25rem;
+    width: 90%;
     align-self: center;
   }
 
   .flag {
-    width: 50%;
+    width: 60%;
     height: 100%;
     align-self: center;
+  }
+
+  .info-container {
+    background: linear-gradient(180deg, rgba(41, 19, 19, 1) 1%, rgba(228, 76, 136, 1) 50%, rgba(15, 7, 7, 1) 106%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 19.8rem;
+  }
+
+  .info-data-box {
+    padding-bottom: 1rem;
+  }
+
+  .info-link-buttons {
+    padding-top: 0.9rem;
   }
 }
