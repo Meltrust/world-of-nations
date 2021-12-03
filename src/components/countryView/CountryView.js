@@ -41,12 +41,13 @@ const CountryView = () => {
 
       <div className="min-vh100 d-flex flex-column p-0">
         <div className="row p-0 d-flex flag-container bg-dark justify-content-center">
-          <img className="d-flex py-md-2 flag" src={country.flag} alt="" />
+          <img className="d-flex py-md-2 py-lg-3 flag" src={country.flag} alt="" />
         </div>
 
-        <div className="  p-5 p-md-3 info-container row">
+        <div className="   p-4 p-md-3 info-container row gx-0">
+
           {' '}
-          <h2 className="mt-2">Country info</h2>
+          <h2 className="mt- mt-lg-2 pt-4 pt-md-5 pt-lg-4">Country info</h2>
           <div className="d-flex flex-column info-data-box">
             <div>
               Official name:

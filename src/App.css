@@ -81,11 +81,11 @@ form {
   }
 
   .info-container {
-    background: linear-gradient(180deg, rgb(71, 38, 38) 1%, rgba(228, 76, 136, 1) 100%, rgba(15, 7, 7, 1) 106%);
+    background: linear-gradient(180deg, rgb(49, 27, 27) 0%, rgba(228, 76, 136, 1) 100%, rgba(15, 7, 7, 1) 106%);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 28rem;
+    height: 31rem;
   }
 
   .info-data-box {
@@ -138,8 +138,8 @@ form {
   }
 
   .flag {
-    width: 50%;
-    height: 93%;
+    width: 60%;
+    height: 100%;
     align-self: center;
   }
 
@@ -148,12 +148,10 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 20.7rem;
+    height: 21.9rem;
   }
 
   .info-data-box {
-    /* margin-top: -2.3rem; */
-
     padding-bottom: 1rem;
   }
 
